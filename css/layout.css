@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #000011;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'STIX Two Text', serif;
+    line-height: 1.5;
+    font-weight: 700;
+}
+li {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    background-color: #000022;
+    float: left;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.main {
+    margin-top: 100px;
+    float: left;
+    width: 100%;
+}
+.footer {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.container {
+    width: 1200px;
+    clear: both;
+    margin: auto;
+}
+.footer .col{
+    float: left;
+    width: calc(33.33% - 20px);
+    padding: 10px;
+}
+.title{
+    color: #0099CC;
+}
+span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/*thêm*/
+.logo {
+    color: white;
+    float: left;
+    line-height: 45px;
+}
+.toplinks {
+    float: right;
+}
+.toplinks li {
+    float: left;
+    margin-left: 5px;
+}
+.toplinks li a {
+    color: white;
+    font-size: 16px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+.toplinks .trending {
+    color: #0099CC;
+}
+.main h1{
+    margin: 20px;
+}
+.main .center {
+    text-align: center;
+}
+.main .col {
+    float: left;
+}
+.main figure{
+    margin: 28px;
+    text-align: center;
+}
+.main img {
+    border-radius: 10px;
+}
+.main figcaption {
+    font-size: 16px;
+}
+.main span {
+    font-size: 13px;
+    font-weight: 400;
+}
+.main i {
+    font-size: 15px;
+}
+.page{
+    margin-left: 465px;
+}
+.page li {
+    float: left;
+    margin-left: 25px;
+}
+.page li a {
+    color: white;
+    font-size: 16px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+.main audio {
+    margin-bottom: 40px;
+}
