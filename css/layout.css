@@ -57,10 +57,11 @@ span {
 }
 
 /*thêm*/
-.logo {
+.logo a{
     color: white;
     float: left;
     line-height: 45px;
+    color: #FFFFFF;
 }
 .toplinks {
     float: right;
